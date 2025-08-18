@@ -12,11 +12,11 @@ spring:
     show-sql: true
     properties:
       hibernate.hibernate.format_sql: true
-  security: #Config Resource Server Keycloak
-    oauth2:
-      resource server:
-        jwt:
-          issuer-uri: http://localhost:8888/realms/aft-mb-api
+#  security: #Config Resource Server Keycloak
+#    oauth2:
+#      resource server:
+#        jwt:
+#          issuer-uri: http://localhost:8888/realms/aft-mb-api
 
 # Config Server Path and BaseUri for media
 media:

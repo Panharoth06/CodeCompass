@@ -20,4 +20,9 @@ public class MediaController {
         return mediaService.upload(file);
     }
 
+    @GetMapping
+    public String sout(){
+        return "ok";
+    }
+
 }
